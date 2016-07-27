@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E19D12E1D45E743007C5AF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E19D12D1D45E743007C5AF0 /* main.m */; };
+		6E19D1311D45E743007C5AF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E19D1301D45E743007C5AF0 /* AppDelegate.m */; };
+		6E19D1341D45E743007C5AF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E19D1331D45E743007C5AF0 /* ViewController.m */; };
+		6E19D1371D45E743007C5AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E19D1351D45E743007C5AF0 /* Main.storyboard */; };
+		6E19D1391D45E743007C5AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E19D1381D45E743007C5AF0 /* Assets.xcassets */; };
+		6E19D13C1D45E743007C5AF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E19D13A1D45E743007C5AF0 /* LaunchScreen.storyboard */; };
+		6E19D1471D45E743007C5AF0 /* test_nstherad_port_02Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E19D1461D45E743007C5AF0 /* test_nstherad_port_02Tests.m */; };
+		6E19D1521D45E743007C5AF0 /* test_nstherad_port_02UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E19D1511D45E743007C5AF0 /* test_nstherad_port_02UITests.m */; };
+		6E4CE9D41D4603050093E7C8 /* NetWorkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4CE9D31D4603050093E7C8 /* NetWorkRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E19D1431D45E743007C5AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E19D1211D45E743007C5AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E19D1281D45E743007C5AF0;
+			remoteInfo = test_nstherad_port_02;
+		};
+		6E19D14E1D45E743007C5AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E19D1211D45E743007C5AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E19D1281D45E743007C5AF0;
+			remoteInfo = test_nstherad_port_02;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E19D1291D45E743007C5AF0 /* test_nstherad_port_02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_nstherad_port_02.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E19D12D1D45E743007C5AF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E19D12F1D45E743007C5AF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E19D1301D45E743007C5AF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E19D1321D45E743007C5AF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E19D1331D45E743007C5AF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E19D1361D45E743007C5AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E19D1381D45E743007C5AF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E19D13B1D45E743007C5AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E19D13D1D45E743007C5AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E19D1421D45E743007C5AF0 /* test_nstherad_port_02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_nstherad_port_02Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E19D1461D45E743007C5AF0 /* test_nstherad_port_02Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_nstherad_port_02Tests.m; sourceTree = "<group>"; };
+		6E19D1481D45E743007C5AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E19D14D1D45E743007C5AF0 /* test_nstherad_port_02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_nstherad_port_02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E19D1511D45E743007C5AF0 /* test_nstherad_port_02UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_nstherad_port_02UITests.m; sourceTree = "<group>"; };
+		6E19D1531D45E743007C5AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4CE9D21D4603050093E7C8 /* NetWorkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkRequest.h; sourceTree = "<group>"; };
+		6E4CE9D31D4603050093E7C8 /* NetWorkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E19D1261D45E743007C5AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E19D13F1D45E743007C5AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E19D14A1D45E743007C5AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E19D1201D45E743007C5AF0 = {
+			isa = PBXGroup;
+			children = (
+				6E19D12B1D45E743007C5AF0 /* test_nstherad_port_02 */,
+				6E19D1451D45E743007C5AF0 /* test_nstherad_port_02Tests */,
+				6E19D1501D45E743007C5AF0 /* test_nstherad_port_02UITests */,
+				6E19D12A1D45E743007C5AF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E19D12A1D45E743007C5AF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E19D1291D45E743007C5AF0 /* test_nstherad_port_02.app */,
+				6E19D1421D45E743007C5AF0 /* test_nstherad_port_02Tests.xctest */,
+				6E19D14D1D45E743007C5AF0 /* test_nstherad_port_02UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E19D12B1D45E743007C5AF0 /* test_nstherad_port_02 */ = {
+			isa = PBXGroup;
+			children = (
+				6E19D12F1D45E743007C5AF0 /* AppDelegate.h */,
+				6E19D1301D45E743007C5AF0 /* AppDelegate.m */,
+				6E19D1321D45E743007C5AF0 /* ViewController.h */,
+				6E19D1331D45E743007C5AF0 /* ViewController.m */,
+				6E4CE9D21D4603050093E7C8 /* NetWorkRequest.h */,
+				6E4CE9D31D4603050093E7C8 /* NetWorkRequest.m */,
+				6E19D1351D45E743007C5AF0 /* Main.storyboard */,
+				6E19D1381D45E743007C5AF0 /* Assets.xcassets */,
+				6E19D13A1D45E743007C5AF0 /* LaunchScreen.storyboard */,
+				6E19D13D1D45E743007C5AF0 /* Info.plist */,
+				6E19D12C1D45E743007C5AF0 /* Supporting Files */,
+			);
+			path = test_nstherad_port_02;
+			sourceTree = "<group>";
+		};
+		6E19D12C1D45E743007C5AF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E19D12D1D45E743007C5AF0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E19D1451D45E743007C5AF0 /* test_nstherad_port_02Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6E19D1461D45E743007C5AF0 /* test_nstherad_port_02Tests.m */,
+				6E19D1481D45E743007C5AF0 /* Info.plist */,
+			);
+			path = test_nstherad_port_02Tests;
+			sourceTree = "<group>";
+		};
+		6E19D1501D45E743007C5AF0 /* test_nstherad_port_02UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E19D1511D45E743007C5AF0 /* test_nstherad_port_02UITests.m */,
+				6E19D1531D45E743007C5AF0 /* Info.plist */,
+			);
+			path = test_nstherad_port_02UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E19D1281D45E743007C5AF0 /* test_nstherad_port_02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E19D1561D45E743007C5AF0 /* Build configuration list for PBXNativeTarget "test_nstherad_port_02" */;
+			buildPhases = (
+				6E19D1251D45E743007C5AF0 /* Sources */,
+				6E19D1261D45E743007C5AF0 /* Frameworks */,
+				6E19D1271D45E743007C5AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test_nstherad_port_02;
+			productName = test_nstherad_port_02;
+			productReference = 6E19D1291D45E743007C5AF0 /* test_nstherad_port_02.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E19D1411D45E743007C5AF0 /* test_nstherad_port_02Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E19D1591D45E743007C5AF0 /* Build configuration list for PBXNativeTarget "test_nstherad_port_02Tests" */;
+			buildPhases = (
+				6E19D13E1D45E743007C5AF0 /* Sources */,
+				6E19D13F1D45E743007C5AF0 /* Frameworks */,
+				6E19D1401D45E743007C5AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E19D1441D45E743007C5AF0 /* PBXTargetDependency */,
+			);
+			name = test_nstherad_port_02Tests;
+			productName = test_nstherad_port_02Tests;
+			productReference = 6E19D1421D45E743007C5AF0 /* test_nstherad_port_02Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E19D14C1D45E743007C5AF0 /* test_nstherad_port_02UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E19D15C1D45E743007C5AF0 /* Build configuration list for PBXNativeTarget "test_nstherad_port_02UITests" */;
+			buildPhases = (
+				6E19D1491D45E743007C5AF0 /* Sources */,
+				6E19D14A1D45E743007C5AF0 /* Frameworks */,
+				6E19D14B1D45E743007C5AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E19D14F1D45E743007C5AF0 /* PBXTargetDependency */,
+			);
+			name = test_nstherad_port_02UITests;
+			productName = test_nstherad_port_02UITests;
+			productReference = 6E19D14D1D45E743007C5AF0 /* test_nstherad_port_02UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E19D1211D45E743007C5AF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jeffasd;
+				TargetAttributes = {
+					6E19D1281D45E743007C5AF0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6E19D1411D45E743007C5AF0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6E19D1281D45E743007C5AF0;
+					};
+					6E19D14C1D45E743007C5AF0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6E19D1281D45E743007C5AF0;
+					};
+				};
+			};
+			buildConfigurationList = 6E19D1241D45E743007C5AF0 /* Build configuration list for PBXProject "test_nstherad_port_02" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E19D1201D45E743007C5AF0;
+			productRefGroup = 6E19D12A1D45E743007C5AF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E19D1281D45E743007C5AF0 /* test_nstherad_port_02 */,
+				6E19D1411D45E743007C5AF0 /* test_nstherad_port_02Tests */,
+				6E19D14C1D45E743007C5AF0 /* test_nstherad_port_02UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E19D1271D45E743007C5AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E19D13C1D45E743007C5AF0 /* LaunchScreen.storyboard in Resources */,
+				6E19D1391D45E743007C5AF0 /* Assets.xcassets in Resources */,
+				6E19D1371D45E743007C5AF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E19D1401D45E743007C5AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E19D14B1D45E743007C5AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E19D1251D45E743007C5AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4CE9D41D4603050093E7C8 /* NetWorkRequest.m in Sources */,
+				6E19D1341D45E743007C5AF0 /* ViewController.m in Sources */,
+				6E19D1311D45E743007C5AF0 /* AppDelegate.m in Sources */,
+				6E19D12E1D45E743007C5AF0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E19D13E1D45E743007C5AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E19D1471D45E743007C5AF0 /* test_nstherad_port_02Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E19D1491D45E743007C5AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E19D1521D45E743007C5AF0 /* test_nstherad_port_02UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E19D1441D45E743007C5AF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E19D1281D45E743007C5AF0 /* test_nstherad_port_02 */;
+			targetProxy = 6E19D1431D45E743007C5AF0 /* PBXContainerItemProxy */;
+		};
+		6E19D14F1D45E743007C5AF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E19D1281D45E743007C5AF0 /* test_nstherad_port_02 */;
+			targetProxy = 6E19D14E1D45E743007C5AF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E19D1351D45E743007C5AF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E19D1361D45E743007C5AF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E19D13A1D45E743007C5AF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E19D13B1D45E743007C5AF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E19D1541D45E743007C5AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E19D1551D45E743007C5AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E19D1571D45E743007C5AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = test_nstherad_port_02/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aichang.movieSlice.test-nstherad-port-02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E19D1581D45E743007C5AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = test_nstherad_port_02/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aichang.movieSlice.test-nstherad-port-02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6E19D15A1D45E743007C5AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = test_nstherad_port_02Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aichang.movieSlice.test-nstherad-port-02Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test_nstherad_port_02.app/test_nstherad_port_02";
+			};
+			name = Debug;
+		};
+		6E19D15B1D45E743007C5AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = test_nstherad_port_02Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aichang.movieSlice.test-nstherad-port-02Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test_nstherad_port_02.app/test_nstherad_port_02";
+			};
+			name = Release;
+		};
+		6E19D15D1D45E743007C5AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = test_nstherad_port_02UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aichang.movieSlice.test-nstherad-port-02UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = test_nstherad_port_02;
+			};
+			name = Debug;
+		};
+		6E19D15E1D45E743007C5AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = test_nstherad_port_02UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aichang.movieSlice.test-nstherad-port-02UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = test_nstherad_port_02;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E19D1241D45E743007C5AF0 /* Build configuration list for PBXProject "test_nstherad_port_02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E19D1541D45E743007C5AF0 /* Debug */,
+				6E19D1551D45E743007C5AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E19D1561D45E743007C5AF0 /* Build configuration list for PBXNativeTarget "test_nstherad_port_02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E19D1571D45E743007C5AF0 /* Debug */,
+				6E19D1581D45E743007C5AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E19D1591D45E743007C5AF0 /* Build configuration list for PBXNativeTarget "test_nstherad_port_02Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E19D15A1D45E743007C5AF0 /* Debug */,
+				6E19D15B1D45E743007C5AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E19D15C1D45E743007C5AF0 /* Build configuration list for PBXNativeTarget "test_nstherad_port_02UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E19D15D1D45E743007C5AF0 /* Debug */,
+				6E19D15E1D45E743007C5AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E19D1211D45E743007C5AF0 /* Project object */;
+}
